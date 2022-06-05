@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+body {
+    z-index: 100 !important;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.supernova {
+    display: none;
+    background-color: #f9f9f9;
+}
+
+/* hide branding */
+
+.form--gift--registry .jotform-form .branding21.formFooter {
+    display: none !important;
+    z-index: -1 !important;
+    visibility: hidden;
+}
+
+.formFooter {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.formFooter-wrapper.formFooter-leftSide {
+    z-index: -1;
+    visibility: hidden;
+}
