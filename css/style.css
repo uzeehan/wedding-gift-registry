@@ -30,18 +30,22 @@ body {
     visibility: hidden;
 }
 
+.bg-light {
+    background-color: #96184B !important;
+}
+
 .nav-link {
-    color: indianred;
+    color: #dee2e6;
     font-size: 1.5rem;
     font-weight: 700;
 }
 .nav-link:hover {
-    color: indianred;
+    color: #dee2e6;
 }
 svg.bi.bi-gift {
     height: 1.5rem;
     width: 1.5rem;
-    color: indianred;
+    color: #dee2e6;
     margin-top: -5px;
 }
 
@@ -58,4 +62,11 @@ svg.bi.bi-gift {
 
 #gr_list ul.checklist .list-item:last-child span.items-left {
     visibility: hidden;
+}
+
+footer.footer {
+    background: #96184B;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    color: #dee2e6;
 }
