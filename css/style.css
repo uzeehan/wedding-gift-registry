@@ -30,10 +30,13 @@ body {
     visibility: hidden;
 }
 
+.banner-text {
+    background: #f5f5dc;
+    padding: 1.85rem 0 1rem !important;
+}
 .bg-light {
     background-color: #96184B !important;
 }
-
 .nav-link {
     color: #dee2e6;
     font-size: 1.5rem;
