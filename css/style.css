@@ -44,3 +44,18 @@ svg.bi.bi-gift {
     color: indianred;
     margin-top: -5px;
 }
+
+@media screen and (max-width: 480px) {
+    li[data-type=control_fullname] [data-wrapper-react=true] .form-sub-label-container {
+        -ms-flex: 1 1 100%;
+        flex: 1 1 100%;
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 100%;
+        width: 100%;
+    }
+}
+
+#gr_list ul.checklist .list-item:last-child span.items-left {
+    visibility: hidden;
+}
